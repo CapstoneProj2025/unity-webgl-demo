@@ -1,8 +1,8 @@
 const buildUrl = "Build";
 const config = {
-  dataUrl: buildUrl + "/YourGameName.data",
-  frameworkUrl: buildUrl + "/YourGameName.framework.js",
-  codeUrl: buildUrl + "/YourGameName.wasm",
+  dataUrl: buildUrl + "/WebGLExample.data",
+  frameworkUrl: buildUrl + "/WebGLExample.framework.js",
+  codeUrl: buildUrl + "/WebGLExample.wasm",
   streamingAssetsUrl: "StreamingAssets",
   companyName: "My Company",
   productName: "My Game",
