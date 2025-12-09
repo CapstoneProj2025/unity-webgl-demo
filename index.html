@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>My Unity WebGL Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>My Unity WebGL Game</header>
+  <div id="game-container">
+    <div id="unity-container">
+      <canvas id="unity-canvas" tabindex="-1"></canvas>
+
+      <div id="unity-loading-bar">
+        <div>Loading...</div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+
+      <div id="unity-warning"></div>
+    </div>
+  </div>
+
+  <!-- Unity loader -->
+  <script src="Build/YourGameName.loader.js"></script>
+  <!-- Your own JS -->
+  <script src="script.js"></script>
+</body>
+</html>

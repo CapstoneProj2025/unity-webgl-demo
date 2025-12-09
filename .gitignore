@@ -1,0 +1,16 @@
+# Unity stuff
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+Builds/
+UserSettings/
+*.csproj
+*.sln
+
+# OS files
+.DS_Store
+
+# Exclude Unity build cache
+Build*/**/*.symbols.json
